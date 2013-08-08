@@ -28,6 +28,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <FilesToIncludeForPublish>AllFilesInProjectFolder</FilesToIncludeForPublish>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -38,7 +39,59 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Composite, Version=4.0.4897.31550, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Composite.dll</HintPath>
+    </Reference>
+    <Reference Include="Composite.Community.Blog, Version=2.0.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Composite.Community.Blog.dll</HintPath>
+    </Reference>
+    <Reference Include="Composite.Generated, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Composite.Generated.dll</HintPath>
+    </Reference>
+    <Reference Include="Composite.Workflows, Version=3.1.4897.31559, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Composite.Workflows.dll</HintPath>
+    </Reference>
+    <Reference Include="CookComputing.XmlRpcV2, Version=2.5.0.0, Culture=neutral, PublicKeyToken=a7d6e17aa302004d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\CookComputing.XmlRpcV2.dll</HintPath>
+    </Reference>
+    <Reference Include="dotless.Core, Version=1.3.1.0, Culture=neutral, PublicKeyToken=96b446c9e63eae34, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\dotless.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook, Version=5.2.1.0, Culture=neutral, PublicKeyToken=58cb4f2111d1e6de, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.85.5.452, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Logging, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Validation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Microsoft.Practices.EnterpriseLibrary.Validation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ObjectBuilder, Version=1.0.51206.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Microsoft.Practices.ObjectBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -48,6 +101,26 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Helpers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
@@ -55,6 +128,10 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="TidyNet, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\TidyNet.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\Composite\ApplicationState\SerializedConsoleMessages\ConsoleMessages.xml" />
@@ -1922,244 +1999,287 @@
     <Content Include="App_Code\Composite\Media\ImageGallery\Facebook\Functions.cs" />
     <Compile Include="Composite\content\dialogs\functions\editFunctionCall.aspx.cs">
       <DependentUpon>editFunctionCall.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Composite\content\dialogs\functions\editFunctionCall.aspx.designer.cs">
       <DependentUpon>editFunctionCall.aspx</DependentUpon>
     </Compile>
     <Compile Include="Composite\content\flow\FlowUi.aspx.cs">
       <DependentUpon>FlowUi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Composite\content\flow\FlowUi.aspx.designer.cs">
       <DependentUpon>FlowUi.aspx</DependentUpon>
     </Compile>
     <Compile Include="Composite\content\misc\editors\functioncalleditor\functioncalleditor.aspx.cs">
       <DependentUpon>functioncalleditor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Composite\content\misc\editors\functioncalleditor\functioncalleditor.aspx.designer.cs">
       <DependentUpon>functioncalleditor.aspx</DependentUpon>
     </Compile>
     <Compile Include="Composite\content\views\datatypedescriptor\ToXml.aspx.cs">
       <DependentUpon>ToXml.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Composite\content\views\datatypedescriptor\ToXml.aspx.designer.cs">
       <DependentUpon>ToXml.aspx</DependentUpon>
     </Compile>
     <Compile Include="Composite\content\views\dev\flushadmin\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Composite\content\views\dev\flushadmin\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Composite\content\views\dev\icons\system\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Composite\content\views\dev\icons\system\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Composite\content\views\functiondoc\FunctionDocumentation.aspx.cs">
       <DependentUpon>FunctionDocumentation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Composite\content\views\functiondoc\FunctionDocumentation.aspx.designer.cs">
       <DependentUpon>FunctionDocumentation.aspx</DependentUpon>
     </Compile>
     <Compile Include="Composite\content\views\functioninfo\ShowFunctionInfo.aspx.cs">
       <DependentUpon>ShowFunctionInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Composite\content\views\functioninfo\ShowFunctionInfo.aspx.designer.cs">
       <DependentUpon>ShowFunctionInfo.aspx</DependentUpon>
     </Compile>
     <Compile Include="Composite\content\views\log\log.aspx.cs">
       <DependentUpon>log.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Composite\content\views\log\log.aspx.designer.cs">
       <DependentUpon>log.aspx</DependentUpon>
     </Compile>
     <Compile Include="Composite\content\views\publishworkflowstatus\ViewUnpublishedItems.aspx.cs">
       <DependentUpon>ViewUnpublishedItems.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Composite\content\views\publishworkflowstatus\ViewUnpublishedItems.aspx.designer.cs">
       <DependentUpon>ViewUnpublishedItems.aspx</DependentUpon>
     </Compile>
     <Compile Include="Composite\content\views\relationshipgraph\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Composite\content\views\relationshipgraph\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Composite\content\views\relationshipgraph\ShowRelationshipOrientedGraph.aspx.cs">
       <DependentUpon>ShowRelationshipOrientedGraph.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Composite\content\views\relationshipgraph\ShowRelationshipOrientedGraph.aspx.designer.cs">
       <DependentUpon>ShowRelationshipOrientedGraph.aspx</DependentUpon>
     </Compile>
     <Compile Include="Composite\content\views\showelementinformation\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Composite\content\views\showelementinformation\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Composite\controls\AppInitializerControl.ascx.cs">
       <DependentUpon>AppInitializerControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Composite\controls\AppInitializerControl.ascx.designer.cs">
       <DependentUpon>AppInitializerControl.ascx</DependentUpon>
     </Compile>
     <Compile Include="Composite\controls\CodePressControl.ascx.cs">
       <DependentUpon>CodePressControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Composite\controls\CodePressControl.ascx.designer.cs">
       <DependentUpon>CodePressControl.ascx</DependentUpon>
     </Compile>
     <Compile Include="Composite\controls\FieldGroupControl.ascx.cs">
       <DependentUpon>FieldGroupControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Composite\controls\FieldGroupControl.ascx.designer.cs">
       <DependentUpon>FieldGroupControl.ascx</DependentUpon>
     </Compile>
     <Compile Include="Composite\controls\FormsControls\FormUiContainerTemplates\DataDialogExecutionContainer.ascx.cs">
       <DependentUpon>DataDialogExecutionContainer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Composite\controls\FormsControls\FormUiContainerTemplates\DataDialogExecutionContainer.ascx.designer.cs">
       <DependentUpon>DataDialogExecutionContainer.ascx</DependentUpon>
     </Compile>
     <Compile Include="Composite\controls\FormsControls\FormUiContainerTemplates\DocumentExecutionContainer.ascx.cs">
       <DependentUpon>DocumentExecutionContainer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Composite\controls\FormsControls\FormUiContainerTemplates\DocumentExecutionContainer.ascx.designer.cs">
       <DependentUpon>DocumentExecutionContainer.ascx</DependentUpon>
     </Compile>
     <Compile Include="Composite\controls\FormsControls\FormUiContainerTemplates\EmptyDocumentExecutionContainer.ascx.cs">
       <DependentUpon>EmptyDocumentExecutionContainer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Composite\controls\FormsControls\FormUiContainerTemplates\EmptyDocumentExecutionContainer.ascx.designer.cs">
       <DependentUpon>EmptyDocumentExecutionContainer.ascx</DependentUpon>
     </Compile>
     <Compile Include="Composite\controls\FormsControls\FormUiContainerTemplates\FormUIStandardDialogs\ConfirmDialogExecutionContainer.ascx.cs">
       <DependentUpon>ConfirmDialogExecutionContainer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Composite\controls\FormsControls\FormUiContainerTemplates\FormUIStandardDialogs\ConfirmDialogExecutionContainer.ascx.designer.cs">
       <DependentUpon>ConfirmDialogExecutionContainer.ascx</DependentUpon>
     </Compile>
     <Compile Include="Composite\controls\FormsControls\FormUiContainerTemplates\FormUIStandardDialogs\WarningDialogExecutionContainer.ascx.cs">
       <DependentUpon>WarningDialogExecutionContainer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Composite\controls\FormsControls\FormUiContainerTemplates\FormUIStandardDialogs\WarningDialogExecutionContainer.ascx.designer.cs">
       <DependentUpon>WarningDialogExecutionContainer.ascx</DependentUpon>
     </Compile>
     <Compile Include="Composite\controls\FormsControls\FormUiContainerTemplates\WizardExecutionContainer.ascx.cs">
       <DependentUpon>WizardExecutionContainer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Composite\controls\FormsControls\FormUiContainerTemplates\WizardExecutionContainer.ascx.designer.cs">
       <DependentUpon>WizardExecutionContainer.ascx</DependentUpon>
     </Compile>
     <Compile Include="Composite\controls\FormsControls\FormUiControlTemplates\Customized\PageContentEditor.ascx.cs">
       <DependentUpon>PageContentEditor.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Composite\controls\FormsControls\FormUiControlTemplates\Customized\PageContentEditor.ascx.designer.cs">
       <DependentUpon>PageContentEditor.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Composite\controls\FormsControls\FormUiControlTemplates\DateTimeSelectors\DateSelector.cs" />
+    <Compile Include="Composite\controls\FormsControls\FormUiControlTemplates\DateTimeSelectors\DateSelector.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Composite\controls\FormsControls\FormUiControlTemplates\DeveloperTools\FunctionCallsDesigner.ascx.cs">
       <DependentUpon>FunctionCallsDesigner.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Composite\controls\FormsControls\FormUiControlTemplates\DeveloperTools\FunctionParameterDesigner.ascx.cs">
       <DependentUpon>FunctionParameterDesigner.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Composite\controls\FormsControls\FormUiControlTemplates\DeveloperTools\FunctionParameterDesigner.ascx.designer.cs">
       <DependentUpon>FunctionParameterDesigner.ascx</DependentUpon>
     </Compile>
     <Compile Include="Composite\controls\FormsControls\FormUiControlTemplates\DeveloperTools\FunctionParameterEditor.aspx.cs">
       <DependentUpon>FunctionParameterEditor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Composite\controls\FormsControls\FormUiControlTemplates\DeveloperTools\FunctionParameterEditor.aspx.designer.cs">
       <DependentUpon>FunctionParameterEditor.aspx</DependentUpon>
     </Compile>
     <Compile Include="Composite\controls\FormsControls\FormUiControlTemplates\DeveloperTools\TypeFieldDesigner.ascx.cs">
       <DependentUpon>TypeFieldDesigner.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Composite\controls\FormsControls\FormUiControlTemplates\DeveloperTools\TypeFieldDesigner.ascx.designer.cs">
       <DependentUpon>TypeFieldDesigner.ascx</DependentUpon>
     </Compile>
     <Compile Include="Composite\controls\FormsControls\FormUiControlTemplates\RichContent\MultiContentXhtmlEditor.ascx.cs">
       <DependentUpon>MultiContentXhtmlEditor.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Composite\controls\FormsControls\FormUiControlTemplates\RichContent\MultiContentXhtmlEditor.ascx.designer.cs">
       <DependentUpon>MultiContentXhtmlEditor.ascx</DependentUpon>
     </Compile>
     <Compile Include="Composite\controls\FormsControls\Helpers\StyleFileLoaderControl.ascx.cs">
       <DependentUpon>StyleFileLoaderControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Composite\controls\FormsControls\Helpers\StyleFileLoaderControl.ascx.designer.cs">
       <DependentUpon>StyleFileLoaderControl.ascx</DependentUpon>
     </Compile>
     <Compile Include="Composite\controls\HttpHeadersControl.ascx.cs">
       <DependentUpon>HttpHeadersControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Composite\controls\HttpHeadersControl.ascx.designer.cs">
       <DependentUpon>HttpHeadersControl.ascx</DependentUpon>
     </Compile>
     <Compile Include="Composite\controls\IconRendererControl.ascx.cs">
       <DependentUpon>IconRendererControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Composite\controls\IconRendererControl.ascx.designer.cs">
       <DependentUpon>IconRendererControl.ascx</DependentUpon>
     </Compile>
     <Compile Include="Composite\controls\IconRendererHarmonyControl.ascx.cs">
       <DependentUpon>IconRendererHarmonyControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Composite\controls\IconRendererHarmonyControl.ascx.designer.cs">
       <DependentUpon>IconRendererHarmonyControl.ascx</DependentUpon>
     </Compile>
     <Compile Include="Composite\controls\Misc\MarkupInOutView.ascx.cs">
       <DependentUpon>MarkupInOutView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Composite\controls\Misc\MarkupInOutView.ascx.designer.cs">
       <DependentUpon>MarkupInOutView.ascx</DependentUpon>
     </Compile>
     <Compile Include="Composite\controls\RegisterOutputTransformation.ascx.cs">
       <DependentUpon>RegisterOutputTransformation.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Composite\controls\RegisterOutputTransformation.ascx.designer.cs">
       <DependentUpon>RegisterOutputTransformation.ascx</DependentUpon>
     </Compile>
     <Compile Include="Composite\controls\ScriptLoaderControl.ascx.cs">
       <DependentUpon>ScriptLoaderControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Composite\controls\ScriptLoaderControl.ascx.designer.cs">
       <DependentUpon>ScriptLoaderControl.ascx</DependentUpon>
     </Compile>
     <Compile Include="Composite\controls\StageDeckControl.ascx.cs">
       <DependentUpon>StageDeckControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Composite\controls\StageDeckControl.ascx.designer.cs">
       <DependentUpon>StageDeckControl.ascx</DependentUpon>
     </Compile>
     <Compile Include="Composite\controls\StyleLoaderControl.ascx.cs">
       <DependentUpon>StyleLoaderControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Composite\controls\StyleLoaderControl.ascx.designer.cs">
       <DependentUpon>StyleLoaderControl.ascx</DependentUpon>
     </Compile>
     <Compile Include="Composite\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Composite\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Composite\schemas\default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Composite\schemas\default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Composite\schemas\FormsControls\GenerateDynamicSchemas.aspx.cs">
       <DependentUpon>GenerateDynamicSchemas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Composite\schemas\FormsControls\GenerateDynamicSchemas.aspx.designer.cs">
       <DependentUpon>GenerateDynamicSchemas.aspx</DependentUpon>
     </Compile>
     <Compile Include="Composite\top.aspx.cs">
       <DependentUpon>top.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Composite\top.aspx.designer.cs">
       <DependentUpon>top.aspx</DependentUpon>
@@ -2167,6 +2287,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Renderers\Page.aspx.cs">
       <DependentUpon>Page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -2438,7 +2559,8 @@
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Composite\images\icons\branding\favicon16.ico</ApplicationIcon>
+    <ApplicationIcon>
+    </ApplicationIcon>
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
