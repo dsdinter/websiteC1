@@ -18,7 +18,7 @@
     {
         Routes.RegisterPageRoute(routes);
 
-        // If necessary, add the standard MVC route "{controller}/{action}/{id}" after registering the C1 page route
+        // If necessary, add the standard MVC route "{controller}/{action}/{id}" after registering the C1 page route - Test
         
         Routes.Register404Route(routes);
     }
