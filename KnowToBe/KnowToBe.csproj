@@ -1914,9 +1914,6 @@
     <Content Include="Frontend\Styles\img\glyphicons-halflings.png" />
     <Content Include="Frontend\Styles\VisualEditor.common.css" />
     <Content Include="Global.asax" />
-    <Content Include="obj\Debug\KnowToBe.csproj.FileListAbsolute.txt" />
-    <Content Include="obj\Debug\KnowToBe.dll" />
-    <Content Include="obj\Debug\KnowToBe.pdb" />
     <Content Include="Renderers\Page.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -2167,12 +2164,6 @@
     <Compile Include="Composite\top.aspx.designer.cs">
       <DependentUpon>top.aspx</DependentUpon>
     </Compile>
-    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
-    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
-    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
-    <Compile Include="obj\Release\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
-    <Compile Include="obj\Release\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
-    <Compile Include="obj\Release\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Renderers\Page.aspx.cs">
       <DependentUpon>Page.aspx</DependentUpon>
@@ -2402,9 +2393,6 @@
     <Content Include="Frontend\Styles\style.less" />
     <Content Include="Frontend\Styles\VisualEditor.common.less" />
     <Content Include="Frontend\Styles\VisualEditor.less" />
-    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
-    <Content Include="obj\Debug\KnowToBe.csprojResolveAssemblyReference.cache" />
-    <Content Include="obj\Release\DesignTimeResolveAssemblyReferencesInput.cache" />
     <Content Include="Renderers\Captcha.ashx" />
     <Content Include="Renderers\FileNotFoundHandler.ashx" />
     <Content Include="Renderers\ShowMedia.ashx" />
@@ -2444,8 +2432,6 @@
     <Folder Include="App_Data\Composite\Packages\dd07b93f-847c-4f51-8bf1-a6e5a9e27e89\Binaries\" />
     <Folder Include="App_Data\Composite\Packages\e899e5e7-bbeb-40bd-b236-b77102718772\Binaries\" />
     <Folder Include="Composite\Setup\" />
-    <Folder Include="obj\Debug\TempPE\" />
-    <Folder Include="obj\Release\TempPE\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
