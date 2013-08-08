@@ -37,16 +37,6 @@
     <ServiceConfiguration Include="ServiceConfiguration.Cloud.cscfg" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\KnowToBe\KnowToBe.csproj">
-      <Name>KnowToBe</Name>
-      <Project>{4675f468-f303-4a41-9619-03124e6c64bd}</Project>
-      <Private>True</Private>
-      <RoleType>Web</RoleType>
-      <RoleName>KnowToBe</RoleName>
-      <UpdateDiagnosticsConnectionStringOnPublish>True</UpdateDiagnosticsConnectionStringOnPublish>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Folder Include="KnowToBeContent\" />
   </ItemGroup>
   <ItemGroup>
