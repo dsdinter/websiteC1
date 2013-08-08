@@ -1,3 +1,4 @@
 ﻿20130808 04:43:48.5239 2 38 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 2 ended at 04:43:48:52 in process 456
 20130808 08:44:05.7692 2 45 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 2 ended at 08:44:05:76 in process 2404
 20130808 11:17:29.5188 2 64 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 2 ended at 11:17:29:51 in process 2976
+20130808 12:13:43.8159 2 31 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 2 ended at 12:13:43:81 in process 2944
