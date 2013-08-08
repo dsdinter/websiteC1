@@ -1,0 +1,16 @@
+﻿20130807 09:44:02.3693 4 52 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 4 ended at 09:44:02:36 in process 4900
+20130807 09:46:29.3911 5 23 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 5 ended at 09:46:29:39 in process 4900
+20130807 10:19:52.4937 6 55 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 6 ended at 10:19:52:49 in process 4900
+20130807 10:31:44.9218 7 40 Information MimeTypeInfo  Uploading file 'Einstein.jpg'. MIME type from extension: 'image/jpeg'
+20130807 10:32:24.6683 7 53 Information MimeTypeInfo  Uploading file 'Einstein.jpg'. MIME type from extension: 'image/jpeg'
+20130807 11:47:27.6483 7 74 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 7 ended at 11:47:27:64 in process 4900
+20130807 11:47:44.3381 2 10 Warning ConsoleMessageServiceFacade  Console 'key22579776578894306' has a last known change numer of 81, but server current number is 1.
+20130807 13:07:38.0838 2 50 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 2 ended at 13:07:38:08 in process 8504
+20130807 15:27:25.9018 2  7 Information MimeTypeInfo  Uploading file 'clouddata.jpg'. MIME type from extension: 'image/jpeg'
+20130807 16:04:55.4639 2 54 Error LazyFunctionProviedPropertyAttribute  Validator function markup parse / execution failed with the following error: 'The Function named 'Composite.Community.Blog.TagValidatorContainer.TagValidator' is not known. Ensure it exists with the exact spelling and casing you provided.'. The validator attribute is dropped.
+20130807 17:06:41.3833 2 36 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 2 ended at 17:06:41:38 in process 17240
+20130807 17:44:26.2176 2 34 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 2 ended at 17:44:26:21 in process 16756
+20130807 18:40:17.3438 2 67 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 2 ended at 18:40:17:34 in process 17596
+20130807 21:53:47.5275 2 28 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 2 ended at 21:53:47:52 in process 7700
+20130807 22:11:32.3042 2 15 Warning ConsoleMessageServiceFacade  Console 'key7087786061759546' has a last known change numer of 16, but server current number is 1.
+20130807 23:22:27.1646 2 47 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 2 ended at 23:22:27:16 in process 1732

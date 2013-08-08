@@ -1,0 +1,98 @@
+﻿20130628 09:02:11.1740 2 64 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 2 ended at 09:02:11:17 in process 11300
+20130628 10:13:23.1395 2 48 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 2 ended at 10:13:23:13 in process 6588
+20130628 10:21:53.1086 3 43 Error FileBasedFunctionProvider  Error instantiating Archive function
+20130628 10:21:53.1398 3 43 Error FileBasedFunctionProvider  System.Web.HttpCompileException (0x80004005): c:\DWASFiles\sites\dsdinter\VirtualDirectory0\site\wwwroot\App_Data\Razor\Composite\Community\Blog\Archive.cshtml(1): error CS0234: The type or namespace name 'Community' does not exist in the namespace 'Composite' (are you missing an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.WebPageBase.CreateInstanceFromVirtualPath(String virtualPath, IVirtualPathFactory virtualPathFactory)
+   at Composite.Plugins.Functions.FunctionProviders.RazorFunctionProvider.RazorFunctionProvider.InstantiateFunction(String virtualPath, String namespace, String name)
+   at Composite.Plugins.Functions.FunctionProviders.FileBasedFunctionProvider.FileBasedFunctionProvider`1.get_Functions()
+20130628 10:21:53.1398 3 43 Error FileBasedFunctionProvider  Error instantiating BlogRenderer function
+20130628 10:21:53.1398 3 43 Error FileBasedFunctionProvider  System.Web.HttpCompileException (0x80004005): c:\DWASFiles\sites\dsdinter\VirtualDirectory0\site\wwwroot\App_Data\Razor\Composite\Community\Blog\BlogRenderer.cshtml(1): error CS0234: The type or namespace name 'Community' does not exist in the namespace 'Composite' (are you missing an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.WebPageBase.CreateInstanceFromVirtualPath(String virtualPath, IVirtualPathFactory virtualPathFactory)
+   at Composite.Plugins.Functions.FunctionProviders.RazorFunctionProvider.RazorFunctionProvider.InstantiateFunction(String virtualPath, String namespace, String name)
+   at Composite.Plugins.Functions.FunctionProviders.FileBasedFunctionProvider.FileBasedFunctionProvider`1.get_Functions()
+20130628 10:21:53.1554 3 43 Error FileBasedFunctionProvider  Error instantiating Latest function
+20130628 10:21:53.1711 3 43 Error FileBasedFunctionProvider  System.Web.HttpCompileException (0x80004005): c:\DWASFiles\sites\dsdinter\VirtualDirectory0\site\wwwroot\App_Data\Razor\Composite\Community\Blog\Latest.cshtml(1): error CS0234: The type or namespace name 'Community' does not exist in the namespace 'Composite' (are you missing an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.WebPageBase.CreateInstanceFromVirtualPath(String virtualPath, IVirtualPathFactory virtualPathFactory)
+   at Composite.Plugins.Functions.FunctionProviders.RazorFunctionProvider.RazorFunctionProvider.InstantiateFunction(String virtualPath, String namespace, String name)
+   at Composite.Plugins.Functions.FunctionProviders.FileBasedFunctionProvider.FileBasedFunctionProvider`1.get_Functions()
+20130628 10:21:53.1711 3 43 Error FileBasedFunctionProvider  Error instantiating TagCloud function
+20130628 10:21:53.1711 3 43 Error FileBasedFunctionProvider  System.Web.HttpCompileException (0x80004005): c:\DWASFiles\sites\dsdinter\VirtualDirectory0\site\wwwroot\App_Data\Razor\Composite\Community\Blog\TagCloud.cshtml(1): error CS0234: The type or namespace name 'Community' does not exist in the namespace 'Composite' (are you missing an assembly reference?)
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.WebPageBase.CreateInstanceFromVirtualPath(String virtualPath, IVirtualPathFactory virtualPathFactory)
+   at Composite.Plugins.Functions.FunctionProviders.RazorFunctionProvider.RazorFunctionProvider.InstantiateFunction(String virtualPath, String namespace, String name)
+   at Composite.Plugins.Functions.FunctionProviders.FileBasedFunctionProvider.FileBasedFunctionProvider`1.get_Functions()
+20130628 10:21:53.2023 3 75 Warning InstallRemotePackageWorkflow  System.ServiceModel.FaultException: Server was unable to process request. ---> Sequence contains more than one element
+
+Server stack trace: 
+   at System.ServiceModel.Channels.ServiceChannel.HandleReply(ProxyOperationRuntime operation, ProxyRpc& rpc)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at Composite.Core.PackageSystem.WebServiceClient.PackagesSoap.RegisterPackageInstallationCompletion(RegisterPackageInstallationCompletionRequest request)
+   at Composite.Core.PackageSystem.WebServiceClient.PackagesSoapClient.Composite.Core.PackageSystem.WebServiceClient.PackagesSoap.RegisterPackageInstallationCompletion(RegisterPackageInstallationCompletionRequest request)
+   at Composite.Core.PackageSystem.WebServiceClient.PackagesSoapClient.RegisterPackageInstallationCompletion(Guid InstallationId, Guid PackageId, String LocalUserName, String localUserIp)
+   at Composite.Core.PackageSystem.PackageServerFacadeImpl.RegisterPackageInstallationCompletion(String packageServerUrl, Guid installationId, Guid packageId, String localUserName, String localUserIp)
+   at Composite.Plugins.Elements.ElementProviders.PackageElementProvider.InstallRemotePackageWorkflow.step4CodeActivity_Install_ExecuteCode(Object sender, EventArgs e)
+
+20130628 10:21:54.0929 3 78 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 3 ended at 10:21:54:09 in process 6588
+20130628 10:21:58.8911 4 42 Error AttributeBasedApplicationStartupHandler  Failed to execute startup handler. Type: 'Composite.Community.Blog.BlogStartupHandler', Assembly: 'Composite.Community.Blog, Version=2.0.3.0, Culture=neutral, PublicKeyToken=null'
+20130628 10:21:58.9067 4 42 Error AttributeBasedApplicationStartupHandler  System.TypeLoadException: Could not load type 'Composite.Community.Blog.Entries' from assembly 'Composite.Generated, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at Composite.Community.Blog.BlogStartupHandler.OnInitialized()
+20130628 10:22:06.5612 4 79 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 4 ended at 10:22:06:56 in process 6588
+20130628 10:22:16.6313 5 35 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 5 ended at 10:22:16:63 in process 6588
+20130628 10:33:49.2265 7 109 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 7 ended at 10:33:49:22 in process 6588
+20130628 10:50:30.5991 8 109 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 8 ended at 10:50:30:59 in process 6588
+20130628 10:52:58.6217 9 69 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 9 ended at 10:52:58:62 in process 6588
+20130628 11:30:42.9070 10 28 Information MimeTypeInfo  Uploading file 'DSC00449.JPG'. MIME type from extension: 'image/jpeg'
+20130628 12:51:53.2504 10 35 Information MimeTypeInfo  Uploading file 'knowledge.jpg'. MIME type from extension: 'image/jpeg'
+20130628 20:51:09.3160 10 48 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 10 ended at 20:51:09:31 in process 6588
+20130628 21:11:02.3256 2 25 Warning ConsoleMessageServiceFacade  Console 'key6165975301992148' has a last known change numer of 109, but server current number is 1.
+20130628 21:47:53.5523 2 47 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 2 ended at 21:47:53:55 in process 9344
+20130628 22:31:37.6689 2 58 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 2 ended at 22:31:37:66 in process 10800

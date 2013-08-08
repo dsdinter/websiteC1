@@ -1,0 +1,35 @@
+﻿20130624 09:58:19.7550 2 44 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 2 ended at 09:58:19:75 in process 4448
+20130624 11:06:09.8104 2 69 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 2 ended at 11:06:09:81 in process 9040
+20130624 13:38:39.8093 2 82 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 2 ended at 13:38:39:80 in process 3772
+20130624 14:42:18.9346 2 21 Error PackageServerFacade  System.ServiceModel.EndpointNotFoundException: There was no endpoint listening at https://package.composite.net/C1.asmx that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details. 
+
+Server stack trace: 
+   at System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   at System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at Composite.Core.PackageSystem.WebServiceClient.PackagesSoap.GetPackageList(GetPackageListRequest request)
+   at Composite.Core.PackageSystem.WebServiceClient.PackagesSoapClient.Composite.Core.PackageSystem.WebServiceClient.PackagesSoap.GetPackageList(GetPackageListRequest request)
+   at Composite.Core.PackageSystem.WebServiceClient.PackagesSoapClient.GetPackageList(Guid InstallationId, String Culture)
+   at Composite.Core.PackageSystem.PackageServerFacadeImpl.GetPackageDescriptions(String packageServerUrl, Guid installationId, CultureInfo userCulture)
+20130624 14:42:18.9659 2 21 Error PackageServerFacade | INNER  System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 109.238.52.33:443
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+20130624 14:42:19.0596 2 21 Error PackageServerFacade | INNER | INNER  System.Net.Sockets.SocketException (0x80004005): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 109.238.52.33:443
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+20130624 15:05:31.8602 2 19 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 2 ended at 15:05:31:86 in process 3860
+20130624 16:46:44.7276 2 67 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 2 ended at 16:46:44:72 in process 6000
+20130624 22:31:43.7093 2 53 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 2 ended at 22:31:43:70 in process 6128

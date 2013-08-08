@@ -1,0 +1,2 @@
+﻿20130701 11:07:45.3383 2 71 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 2 ended at 11:07:45:33 in process 9220
+20130701 22:33:41.7873 2 15 Information ApplicationEventHandler RGB(205, 92, 92) AppDomain 2 ended at 22:33:41:78 in process 12268
