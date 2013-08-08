@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<SubscribedTypesCache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Assemblies>
+    <AssemblyInfo>
+      <SubscribedTypes>
+        <string>Composite.Community.Blog.BlogStartupHandler</string>
+      </SubscribedTypes>
+      <AssemblyName>Composite.Community.Blog</AssemblyName>
+      <LastModified>2013-08-08T10:03:15.7240019+01:00</LastModified>
+    </AssemblyInfo>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>CookComputing.XmlRpcV2</AssemblyName>
+      <LastModified>2013-08-08T10:03:14.5208849+01:00</LastModified>
+    </AssemblyInfo>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>dotless.Core</AssemblyName>
+      <LastModified>2013-08-08T10:03:14.411565+01:00</LastModified>
+    </AssemblyInfo>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>Facebook</AssemblyName>
+      <LastModified>2013-08-08T10:03:14.2240667+01:00</LastModified>
+    </AssemblyInfo>
+  </Assemblies>
+</SubscribedTypesCache>

@@ -1,0 +1,2 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageInfo name="Composite.StarterSite.Bootstrap.SampleImages" groupName="Composite.StarterSite.Bootstrap" version="1.0.1" author="Composite A/S" website="http://composite.net" description="Bootstrap Sample ImagesBootstrap Sample Images" installDate="2013-06-22T21:09:14.1776234+00:00" installedBy="admin" isLocalInstalled="true" canBeUninstalled="true" flushOnCompletion="false" reloadConsoleOnCompletion="false" systemLocking="none" xmlns="http://www.composite.net/ns/management/packageinstaller/1.0" />

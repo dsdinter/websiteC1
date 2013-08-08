@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageInstaller xmlns="http://www.composite.net/ns/management/packageinstaller/1.0">
+  <PackageFragmentUninstallers>
+    <Add uninstallerType="Composite.Core.PackageSystem.PackageFragmentInstallers.FilePackageFragmentUninstaller,Composite">
+      <Files xmlns="">
+        <File filename="~\App_Data\Xslt\Composite\Web\Html\IFrame.xsl" />
+        <File filename="~\Frontend\Composite\Web\Html\IFrame\Styles.css" />
+      </Files>
+    </Add>
+    <Add uninstallerType="Composite.Core.PackageSystem.PackageFragmentInstallers.DataPackageFragmentUninstaller,Composite">
+      <Types xmlns="">
+        <Type type="Composite.Data.Types.IParameter,Composite" dataScopeIdentifier="public">
+          <Datas>
+            <Keys>
+              <Key name="OwnerId" value="0807b614-87f1-4c2f-88ed-3d1d467292fa" />
+              <Key name="ParameterId" value="be42713c-a013-4b4a-b01f-104251c2f525" />
+            </Keys>
+            <Keys>
+              <Key name="OwnerId" value="0807b614-87f1-4c2f-88ed-3d1d467292fa" />
+              <Key name="ParameterId" value="1e2924ab-5f47-4c67-bc61-1c5d0836afc2" />
+            </Keys>
+            <Keys>
+              <Key name="OwnerId" value="0807b614-87f1-4c2f-88ed-3d1d467292fa" />
+              <Key name="ParameterId" value="11d89097-a27b-47d5-b023-172327f0b974" />
+            </Keys>
+            <Keys>
+              <Key name="OwnerId" value="0807b614-87f1-4c2f-88ed-3d1d467292fa" />
+              <Key name="ParameterId" value="296e3e0c-2e6e-4e77-8a7d-5621dae92c81" />
+            </Keys>
+          </Datas>
+        </Type>
+        <Type type="Composite.Data.Types.IXsltFunction,Composite" dataScopeIdentifier="public">
+          <Datas>
+            <Keys>
+              <Key name="Id" value="0807b614-87f1-4c2f-88ed-3d1d467292fa" />
+            </Keys>
+          </Datas>
+        </Type>
+      </Types>
+    </Add>
+  </PackageFragmentUninstallers>
+</PackageInstaller>

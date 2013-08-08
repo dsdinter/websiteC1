@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageInstaller xmlns="http://www.composite.net/ns/management/packageinstaller/1.0">
+  <PackageFragmentUninstallers>
+    <Add uninstallerType="Composite.Core.PackageSystem.PackageFragmentInstallers.FilePackageFragmentUninstaller,Composite">
+      <Files xmlns="">
+        <File filename="~\App_Data\Xslt\Composite\Community\Disqus\Comments.xsl" />
+        <File filename="~\App_Data\Xslt\Composite\Community\Disqus\FeaturedComments.xsl" />
+      </Files>
+    </Add>
+    <Add uninstallerType="Composite.Core.PackageSystem.PackageFragmentInstallers.DataPackageFragmentUninstaller,Composite">
+      <Types xmlns="">
+        <Type type="Composite.Data.Types.IParameter,Composite" dataScopeIdentifier="public">
+          <Datas>
+            <Keys>
+              <Key name="OwnerId" value="359183eb-5d76-41eb-8ee3-b827004399b3" />
+              <Key name="ParameterId" value="6757dee5-eaf9-4ce8-b5b7-4f64d2583b0a" />
+            </Keys>
+            <Keys>
+              <Key name="OwnerId" value="359183eb-5d76-41eb-8ee3-b827004399b3" />
+              <Key name="ParameterId" value="59d30de2-87ae-4629-959e-2408aedd4a0f" />
+            </Keys>
+            <Keys>
+              <Key name="OwnerId" value="3a5c073d-dd00-4b1d-bda9-39f470a86690" />
+              <Key name="ParameterId" value="033e3d4f-0253-4c64-923f-e8cb8617dfd3" />
+            </Keys>
+            <Keys>
+              <Key name="OwnerId" value="3a5c073d-dd00-4b1d-bda9-39f470a86690" />
+              <Key name="ParameterId" value="0d633324-fdee-4e7a-85c0-6f56abf7f3f8" />
+            </Keys>
+            <Keys>
+              <Key name="OwnerId" value="3a5c073d-dd00-4b1d-bda9-39f470a86690" />
+              <Key name="ParameterId" value="6c6764d4-443a-4390-81eb-a09dff12cd20" />
+            </Keys>
+            <Keys>
+              <Key name="OwnerId" value="3a5c073d-dd00-4b1d-bda9-39f470a86690" />
+              <Key name="ParameterId" value="08dbff70-aef2-4b2c-bd59-977696ae9801" />
+            </Keys>
+            <Keys>
+              <Key name="OwnerId" value="3a5c073d-dd00-4b1d-bda9-39f470a86690" />
+              <Key name="ParameterId" value="54261915-da75-4458-b5a8-8625df7b7f52" />
+            </Keys>
+            <Keys>
+              <Key name="OwnerId" value="3a5c073d-dd00-4b1d-bda9-39f470a86690" />
+              <Key name="ParameterId" value="7de52f81-cf20-4541-8c6e-cd689df700ed" />
+            </Keys>
+            <Keys>
+              <Key name="OwnerId" value="3a5c073d-dd00-4b1d-bda9-39f470a86690" />
+              <Key name="ParameterId" value="8663d11d-a47d-4098-bc32-f10f72d8ca31" />
+            </Keys>
+            <Keys>
+              <Key name="OwnerId" value="3a5c073d-dd00-4b1d-bda9-39f470a86690" />
+              <Key name="ParameterId" value="04d21180-688a-4498-8bcb-3a004d45f8c1" />
+            </Keys>
+            <Keys>
+              <Key name="OwnerId" value="3a5c073d-dd00-4b1d-bda9-39f470a86690" />
+              <Key name="ParameterId" value="bb1937c2-199a-415f-b161-f58470e0e8ae" />
+            </Keys>
+          </Datas>
+        </Type>
+        <Type type="Composite.Data.Types.IXsltFunction,Composite" dataScopeIdentifier="public">
+          <Datas>
+            <Keys>
+              <Key name="Id" value="359183eb-5d76-41eb-8ee3-b827004399b3" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="3a5c073d-dd00-4b1d-bda9-39f470a86690" />
+            </Keys>
+          </Datas>
+        </Type>
+      </Types>
+    </Add>
+  </PackageFragmentUninstallers>
+</PackageInstaller>

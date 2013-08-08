@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageInstaller xmlns="http://www.composite.net/ns/management/packageinstaller/1.0">
+  <PackageFragmentUninstallers>
+    <Add uninstallerType="Composite.Core.PackageSystem.PackageFragmentInstallers.FilePackageFragmentUninstaller,Composite">
+      <Files xmlns="">
+        <File filename="~\App_Data\Xslt\Composite\Media\ImageGallery\Facebook\AlbumsGallery.xsl" />
+        <File filename="~\App_Data\Xslt\Composite\Media\ImageGallery\Facebook\AlbumsList.xsl" />
+        <File filename="~\App_Data\Xslt\Composite\Media\ImageGallery\Facebook\PhotosList.xsl" />
+        <File filename="~\App_Code\Composite\Media\ImageGallery\Facebook\Functions.cs" />
+        <File filename="~\Bin\Facebook.dll" />
+      </Files>
+    </Add>
+    <Add uninstallerType="Composite.Core.PackageSystem.PackageFragmentInstallers.DataPackageFragmentUninstaller,Composite">
+      <Types xmlns="">
+        <Type type="Composite.Data.Types.IMethodBasedFunctionInfo,Composite" dataScopeIdentifier="public">
+          <Datas>
+            <Keys>
+              <Key name="Id" value="0e4da4a4-313e-4aa2-9308-222b38189118" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="4f9af2ac-a1fe-4a3d-9b38-7a7ce6473896" />
+            </Keys>
+          </Datas>
+        </Type>
+        <Type type="Composite.Data.Types.INamedFunctionCall,Composite" dataScopeIdentifier="public">
+          <Datas>
+            <Keys>
+              <Key name="XsltFunctionId" value="e5b72015-b306-4c39-bbfd-b0e5deb11f58" />
+              <Key name="Name" value="AlbumID" />
+            </Keys>
+            <Keys>
+              <Key name="XsltFunctionId" value="e5b72015-b306-4c39-bbfd-b0e5deb11f58" />
+              <Key name="Name" value="ID" />
+            </Keys>
+            <Keys>
+              <Key name="XsltFunctionId" value="c28b7473-9be0-4598-931e-031f8824feaf" />
+              <Key name="Name" value="GetAlbums" />
+            </Keys>
+            <Keys>
+              <Key name="XsltFunctionId" value="6857ae71-001a-4731-a385-f861e4531089" />
+              <Key name="Name" value="GetPhotos" />
+            </Keys>
+          </Datas>
+        </Type>
+        <Type type="Composite.Data.Types.IParameter,Composite" dataScopeIdentifier="public">
+          <Datas>
+            <Keys>
+              <Key name="OwnerId" value="e5b72015-b306-4c39-bbfd-b0e5deb11f58" />
+              <Key name="ParameterId" value="499b2138-d228-4bdf-ae71-e14f2881b67a" />
+            </Keys>
+            <Keys>
+              <Key name="OwnerId" value="e5b72015-b306-4c39-bbfd-b0e5deb11f58" />
+              <Key name="ParameterId" value="159b2ca3-daa7-4594-b64e-3324af79bde0" />
+            </Keys>
+            <Keys>
+              <Key name="OwnerId" value="e5b72015-b306-4c39-bbfd-b0e5deb11f58" />
+              <Key name="ParameterId" value="2d9365f3-7858-4c3e-b08e-aa2c49feb6cd" />
+            </Keys>
+            <Keys>
+              <Key name="OwnerId" value="e5b72015-b306-4c39-bbfd-b0e5deb11f58" />
+              <Key name="ParameterId" value="c8172eb5-44e4-45fd-8139-17da43e9942a" />
+            </Keys>
+            <Keys>
+              <Key name="OwnerId" value="c28b7473-9be0-4598-931e-031f8824feaf" />
+              <Key name="ParameterId" value="0d61aaa9-db69-47d5-9bbd-f6e92cb7628e" />
+            </Keys>
+            <Keys>
+              <Key name="OwnerId" value="c28b7473-9be0-4598-931e-031f8824feaf" />
+              <Key name="ParameterId" value="9a2448f3-a8de-46ab-9a08-3e2b8fb975ba" />
+            </Keys>
+            <Keys>
+              <Key name="OwnerId" value="c28b7473-9be0-4598-931e-031f8824feaf" />
+              <Key name="ParameterId" value="2f8e4038-83de-4360-9d80-28a1dbda00bc" />
+            </Keys>
+            <Keys>
+              <Key name="OwnerId" value="c28b7473-9be0-4598-931e-031f8824feaf" />
+              <Key name="ParameterId" value="90d9378a-f1ca-41e7-8e47-e2821175eafe" />
+            </Keys>
+            <Keys>
+              <Key name="OwnerId" value="6857ae71-001a-4731-a385-f861e4531089" />
+              <Key name="ParameterId" value="c0ed3517-2c7b-4fb8-9dcc-9a782ff6197f" />
+            </Keys>
+            <Keys>
+              <Key name="OwnerId" value="6857ae71-001a-4731-a385-f861e4531089" />
+              <Key name="ParameterId" value="2cf3eb15-d7eb-47e4-971e-48f1b53de69b" />
+            </Keys>
+          </Datas>
+        </Type>
+        <Type type="Composite.Data.Types.IXsltFunction,Composite" dataScopeIdentifier="public">
+          <Datas>
+            <Keys>
+              <Key name="Id" value="e5b72015-b306-4c39-bbfd-b0e5deb11f58" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="c28b7473-9be0-4598-931e-031f8824feaf" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="6857ae71-001a-4731-a385-f861e4531089" />
+            </Keys>
+          </Datas>
+        </Type>
+      </Types>
+    </Add>
+  </PackageFragmentUninstallers>
+</PackageInstaller>
