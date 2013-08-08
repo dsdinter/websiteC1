@@ -23,5 +23,10 @@
       <AssemblyName>Facebook</AssemblyName>
       <LastModified>2013-08-08T10:03:14.2240667+01:00</LastModified>
     </AssemblyInfo>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>KnowToBe</AssemblyName>
+      <LastModified>2013-08-08T12:01:20.8391731+01:00</LastModified>
+    </AssemblyInfo>
   </Assemblies>
 </SubscribedTypesCache>
